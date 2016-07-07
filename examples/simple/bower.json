@@ -1,0 +1,21 @@
+{
+  "name": "simple",
+  "authors": [
+    "Filip Wieland <filiplamparski@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "system.js": "^0.19.31",
+    "plugin-babel": "systemjs/plugin-babel#^0.0.12"
+  }
+}

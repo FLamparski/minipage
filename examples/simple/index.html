@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Minipage example</title>
+  <script src="./bower_components/system.js/dist/system.js" charset="utf-8"></script>
+</head>
+<body>
+  <p>
+    Loading...
+  </p>
+  <script type="text/javascript">
+    System.config({
+      baseURL: './js',
+      map: {
+        Pages: '../../Pages.js',
+        'plugin-babel': './bower_components/plugin-babel/plugin-babel.js',
+        'systemjs-babel-build': './bower_components/plugin-babel/systemjs-babel-browser.js'
+      },
+      transpiler: 'plugin-babel'
+    })
+    System.import('main.js')
+  </script>
+</body>
+</html>
